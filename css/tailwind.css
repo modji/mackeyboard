@@ -4,7 +4,7 @@
 
 
 .key {
-    @apply h-8 w-[4.33rem] bg-black flex justify-center items-center rounded-lg border-2 border-white border-opacity-80 hover:scale-95 transition-all duration-300 hover:border-opacity-70;
+    @apply h-8 w-[4.33rem] bg-black flex justify-center items-center rounded-lg border-2 border-white border-opacity-80 hover:shadow-inner transition-all duration-300 hover:border-opacity-70;
 }
 
 .key-xl {
