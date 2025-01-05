@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrows</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body class="bg-mac-silver">
+
+    <div class="flex flex-col justify-center items-center h-screen text-white">
+        <div id="arrow-up"
+            class="w-16 h-8 rounded-tl-lg rounded-tr-lg bg-black border-2 border-white flex justify-center items-center border-opacity-80 hover:scale-95 transition-all duration-300 hover:border-opacity-70">
+            <i data-lucide="chevron-up" class="w-5 h-5"></i>
+        </div>
+        <div class="flex">
+            <div id="arrow-left"
+                class="w-16 h-8 bg-black flex justify-center items-center rounded-tl-lg rounded-bl-lg rounded-tr-lg rounded-br-lg border-2 border-white mr-2 border-opacity-80 hover:scale-95 transition-all duration-300 hover:border-opacity-70">
+                <i data-lucide="chevron-left"></i>
+            </div><!-- /#arrow-left -->
+            <div id="arrow-down"
+                class="w-16 h-8 bg-black flex justify-center items-center rounded-bl-lg  rounded-br-lg border-2 border-white mr-2 border-opacity-80 hover:scale-95 transition-all duration-300 hover:border-opacity-70">
+                <i data-lucide="chevron-down"></i>
+            </div><!-- /#arrow-down -->
+            <div id="arrow-right"
+                class="w-16 h-8 bg-black flex justify-center items-center rounded-tl-lg rounded-tr-lg rounded-bl-lg rounded-br-lg border-2 border-white border-opacity-80 hover:scale-95 transition-all duration-300 hover:border-opacity-70">
+                <i data-lucide="chevron-right"></i>
+            </div><!-- /#arrow-right -->
+        </div><!-- /.flex -->
+    </div><!-- /.flex -->
+
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
