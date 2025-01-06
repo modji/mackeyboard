@@ -5,6 +5,10 @@ It replicates the layout and functionality of a physical Mac keyboard and provid
 
 ---
 
+### Live Demo
+
+[Live Demo](https://modji.github.io/mackeyboard/)
+
 ### **Features**
 1. **Mac Keyboard Layout**:
    - Includes functional keys (`Escape`, `Caps Lock`, `Delete`, `Tab`, etc.).
